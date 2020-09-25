@@ -4,39 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Budget</title>
+
+ <!--SEO change1-->
+    <meta name="description" content = "The page is about utilizing your budget in an efficient manner.">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="main.css">
+<!--SEO change2-->
+<link rel="shortcut icon" type="image/co" href="./favico.ico" />
 </head>
 <body>
+    <!--SEO change3-->
+    <!----http://159.65.233.7/Kdutt/personalbudget --->
 
-     <!--added semantic element-->
+    <!--added semantic element1-->
 
-<header>
+<header id="top">
+    <!--added A11y change1-->
+    
+<ul class="skip-links">
+    <li><a href="#nav">skip to navigation</a></li>
+    <li><a href="#main">skip to main content</a></li>
+    <li><a href="#footer">footer</a></li>    
+</ul>
+
+
+   
  
-    <nav class="menu">
+    <nav class="menu" id="nav" >
         <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="/about.html">About</a></li>
-            <li><a href="/login.html">Login</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="login.html">Login</a></li>
             <li><a href="https://google.com">Google</a></li>
         </ul>
     </nav>
 
-
- <!--added semantic element-->
-
-
-    <div class="hero">
+    <!--added A11y change2-->
+     <div class="hero" role="banner">
         <h1>Personal Budget</h1>
         <h2>A personal-budget management app</h2>
     </div>
+    
 
 </header>
 
-    <main>
+    <main id="main">
     <div class="container center">
 
         <div class="page-area">
+
+         <!--added semantic element2-->
 
             <article>
                 <h1>Stay on track</h1>
@@ -47,7 +64,7 @@
                 </p>
             </article>
     
-            <article>
+            <article >
                 <h1>Alerts</h1>
                 <p>
                     What if your clothing budget ended? You will get an alert. The goal is to never go over the budget.
@@ -70,7 +87,7 @@
                 </p>
             </article>
     
-            <article>
+            <article >
                 <h1>Stay on track</h1>
                 <p>
                     Do you know where you are spending your money? If you really stop to track it down,
@@ -79,14 +96,14 @@
                 </p>
             </article>
     
-            <article>
+            <article >
                 <h1>Alerts</h1>
                 <p>
                     What if your clothing budget ended? You will get an alert. The goal is to never go over the budget.
                 </p>
             </article>
     
-            <article>
+            <article >
                 <h1>Results</h1>
                 <p>
                     People who stick to a financial plan, budgeting every expense, get out of debt faster!
@@ -107,11 +124,11 @@
     </div>
 
 </main>
-    <!--added semantic element-->
-    <footer>
-          All rights reserved &copy; Fabio Nolasco
+    <!--added semantic element3-->
+    <footer id="footer">
+        <!--added A11y change3-->
+          <p>All rights reserved &copy; Fabio Nolasco <a href="#top">Top</a></p>
         </footer>
-      
 
-</body>
+    </body>
 </html>
