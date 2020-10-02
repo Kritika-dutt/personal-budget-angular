@@ -1,10 +1,11 @@
 const express = require('express');
 const app = express();
 const port = 3000;
+var budget = require('./Kritika.json');
 
 app.use('/', express.static('public'));
 
-const budget ={
+/*const budget ={
     myBudget: [
     {
         title: 'Shopping',
@@ -21,7 +22,7 @@ const budget ={
     },
 
 ]
-};
+}; */
 
 
 app.get('/kkk', (req, res) => {
@@ -36,4 +37,4 @@ res.json(budget);
 
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`);
-});
+}); 
