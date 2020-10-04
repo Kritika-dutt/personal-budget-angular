@@ -158,7 +158,7 @@ footer {
   svg{
       width: 100%;
       height: 100%;
-    transform: translate(30%, -50%);
+    transform: translate(30%, -65%);
   }
   path.slice{
       stroke-width:10px;

@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 3000;
 var budget = require('./Kritika.json');
-/*var saving = require('./D3chart.json');*/
+
 
 
 
@@ -26,30 +26,6 @@ app.use('/', express.static('public'));
 
 ]
 }; */
-/*const saving = {
-       mySaving: [
-     {
-        "title": "January",
-        "saving": "400"
-    },
-    
-    {
-        "title": "February",
-        "saving": "80"
-    },
-    
-    {
-        "title": "March",
-        "saving": "200"
-    },
-    
-    {
-        "title": "April",
-        "saving": "150"
-    }
-    
-    ]
-};  */
 
 
 
@@ -63,9 +39,7 @@ app.get('/budget', (req, res) => {
 res.json(budget);
 });
 
-app.get('/saving', (req, res)=>{
-    res.json(budget);
-});
+
 
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`);
