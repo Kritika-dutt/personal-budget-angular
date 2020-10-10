@@ -364,37 +364,7 @@ template {
   font-family: Tahoma, Arial;
 }*/
 
-nav.menu {
-  width:128%;
-  background-color: #4d5791;
-  height: 44px;
-  padding: 0 40px;
 
-}
-
-nav.menu ul,
-nav.menu ul li {
-  margin: 0;
-  padding: 0 ;
-  list-style: none;
-  display: inline-block;
-}
-
-nav.menu ul li a {
-  display: block;
-  padding: 0 20px;
-  line-height: 44px;
-  font-size: 1.4em;
-  text-decoration: none;
-  color: #fff;
-  margin: 0;
-}
-
-nav.menu ul li a:hover  {
-  background-color: white;
-  color: #4d5791;
-
-}
 
 
 
@@ -544,4 +514,21 @@ polyline{
   margin-left: 250px;
 
 
+}
+
+/* Homepage component.html changes*/
+/*section{
+  color: red ;
+}*/
+
+
+/* breadcrumb component.html changes*/
+breadcrumb.chip {
+  display: inline-block;
+  padding: 0 25px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: #f1f1f1;
 }
